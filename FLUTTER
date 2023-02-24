@@ -1,0 +1,16 @@
+import 'package:flutter/material.dart';
+
+void main(){
+  
+  runApp(MaterialApp(
+    
+    title: "Estrutura Primcipal Flutter",
+    home:Row(children:<Widget>[
+      
+     Text('Flutter 2DS'),
+     Text('2DS SEXTA-FERIRA NO MOBILE'),
+    ],),
+  
+  ));
+  
+}
