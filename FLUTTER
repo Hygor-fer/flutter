@@ -5,10 +5,23 @@ void main(){
   runApp(MaterialApp(
     
     title: "Estrutura Primcipal Flutter",
-    home:Row(children:<Widget>[
+    home:Column(children:<Widget>[
       
-     Text('Flutter 2DS'),
-     Text('2DS SEXTA-FERIRA NO MOBILE'),
+     Text(
+       'Flutter 2DS',
+        style:TextStyle(
+        fontSize: 100,
+        fontStyle:FontStyle.italic,
+        fontWeight: FontWeight.bold,
+        letterSpacing: 0,
+        wordSpacing: 0,
+        decoration: TextDecoration.none,
+        decorationColor: Colors.cyan,
+        color:Colors.pink,
+        decorationStyle: TextDecorationStyle.solid,
+     ),
+     ),
+    
     ],),
   
   ));
